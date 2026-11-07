@@ -1,0 +1,11 @@
+[
+  {
+    "id": "storyforge",
+    "commit": "f20fbf55e5f2cfb22a43996ce027dfc8035f5c6a",
+    "dirty": true,
+    "snapshot": "a6fb802783e06dc33f0025e8e7ca482591438c8249ddedbc4651f09286a89746",
+    "fileCount": 166,
+    "lineCount": 36982,
+    "reviewedFileCount": 10
+  }
+]

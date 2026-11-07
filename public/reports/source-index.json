@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "storyforge",
+      "commit": "f20fbf55e5f2cfb22a43996ce027dfc8035f5c6a",
+      "dirty": true,
+      "snapshot": "a6fb802783e06dc33f0025e8e7ca482591438c8249ddedbc4651f09286a89746",
+      "fileCount": 166,
+      "lineCount": 36982,
+      "reviewedFileCount": 10,
+      "files": [
+        {
+          "path": "apps/api/src/auth.ts",
+          "sha256": "86411ab4b3259efb415034b9dc78b226b8953b4ce1ff875b4ea9e720ed97390d",
+          "bytes": 5691,
+          "lines": 108,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "apps/api/src/security.test.ts",
+          "sha256": "cf96f8469e1ca980bfd98d39179163c50bf1d6c4c27ee962e99da1ccf8e808d3",
+          "bytes": 1888,
+          "lines": 31,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "apps/api/src/security.ts",
+          "sha256": "c141b9839298575259274fae82a36547a329fdee8253acc3ec4c6394f581f842",
+          "bytes": 8873,
+          "lines": 141,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "apps/api/src/server.ts",
+          "sha256": "acd27a1a3dc2da74ab6d33865f41964b454445fa68eb298090adb8e2a020a225",
+          "bytes": 344458,
+          "lines": 4639,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "apps/api/src/task-queue.ts",
+          "sha256": "d6c442358b826b6ff1431e433823ede9d3ac141a2df0e7db6c26802b46189b50",
+          "bytes": 6857,
+          "lines": 205,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "components/public-library/book-detail.tsx",
+          "sha256": "fc2e60407e3245d99af751332cd137956c7af45db5362d86a2ab6d0ec0a73382",
+          "bytes": 12728,
+          "lines": 159,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "components/public-library/bookstore.tsx",
+          "sha256": "37b6cc81c943da714d4548b6c4fccf56b9911122d0d4fc0eaeadc26b54527c9f",
+          "bytes": 6656,
+          "lines": 89,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "components/public-library/library-api.ts",
+          "sha256": "c8dca297aab1e2c17584f24c262892a6cd72f09760da51a405c60f1ef8be71bd",
+          "bytes": 4890,
+          "lines": 146,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "package.json",
+          "sha256": "7c932854a8b776af015127f143688c30ea2dfef2c50e328f29df86220f5cf33b",
+          "bytes": 1883,
+          "lines": 60,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "prisma/schema.prisma",
+          "sha256": "84b8fe4d94cee125ef15fdcb8f66e476d737d5672ab53272966ce26aefc3c7bf",
+          "bytes": 29706,
+          "lines": 659,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    }
+  ]
+}

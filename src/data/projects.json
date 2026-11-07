@@ -1,0 +1,135 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "storyforge",
+    "title": "StoryForge · 从书城到创作服务",
+    "description": "理解公开作品、个人书架、双存储分支与后台生成队列。",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "SQLite",
+      "PostgreSQL",
+      "BullMQ"
+    ],
+    "sourceIds": [
+      "storyforge"
+    ],
+    "status": "核心链路已分析；扩展模块未穷尽",
+    "tutorialVersion": "2026.11.07.1",
+    "owner": "agent-authored",
+    "chapters": [
+      {
+        "id": "index",
+        "title": "00 · 创作和阅读为什么分开",
+        "path": "courses/storyforge/index",
+        "objective": "从真实入口说明系统给作者与读者分别提供什么。"
+      },
+      {
+        "id": "start",
+        "title": "01 · 独立 API 与前端的启动",
+        "path": "courses/storyforge/start",
+        "objective": "区分最小 SQLite 学习环境与 PostgreSQL/Redis 的扩展环境。"
+      },
+      {
+        "id": "architecture",
+        "title": "02 · 目录、双存储与异步支路",
+        "path": "courses/storyforge/architecture",
+        "objective": "描述页面、原生 HTTP 服务、存储适配和 worker 的协作。"
+      },
+      {
+        "id": "flows",
+        "title": "03 · 搜书、收藏和取消收藏",
+        "path": "courses/storyforge/flows",
+        "objective": "沿真实页面函数追踪三条业务链，识别空数据和登录失效。"
+      },
+      {
+        "id": "code",
+        "title": "04 · 精读发布过滤与任务重试",
+        "path": "courses/storyforge/code",
+        "objective": "说明动态查询哪些部分受白名单控制，哪些部分需要参数绑定。"
+      },
+      {
+        "id": "security",
+        "title": "05 · 安全验证与动手实验",
+        "path": "courses/storyforge/security",
+        "objective": "用实际测试区分地址校验、图片签名与全链路安全。"
+      }
+    ],
+    "modules": [
+      "Next / React · 书城与创作页面",
+      "publicApi · Cookie 请求封装",
+      "Node route · 同源、身份与业务入口",
+      "SQLite / PostgreSQL · 发布与书架",
+      "BullMQ · 创作后台任务（独立支路）"
+    ],
+    "flows": [
+      "搜索公开书籍",
+      "加入书架",
+      "移除书架"
+    ],
+    "exercises": [
+      "请求分页边界与发布可见性",
+      "安全地址白名单测试"
+    ],
+    "unreviewed": "生成质量、支付、对象存储、Postgres 完整迁移和多端 E2E 未实测。",
+    "runtimeValidation": "安全测试3通过；完整服务未启动",
+    "entry": "app / apps/api/src/server.ts",
+    "moduleRecords": [
+      {
+        "id": "storyforge-module-1",
+        "name": "Next / React · 书城与创作页面",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "storyforge-module-2",
+        "name": "publicApi · Cookie 请求封装",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "storyforge-module-3",
+        "name": "Node route · 同源、身份与业务入口",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "storyforge-module-4",
+        "name": "SQLite / PostgreSQL · 发布与书架",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "storyforge-module-5",
+        "name": "BullMQ · 创作后台任务（独立支路）",
+        "analysisStatus": "core-path"
+      }
+    ],
+    "flowRecords": [
+      {
+        "id": "storyforge-flow-1",
+        "name": "搜索公开书籍",
+        "chapter": "courses/storyforge/flows"
+      },
+      {
+        "id": "storyforge-flow-2",
+        "name": "加入书架",
+        "chapter": "courses/storyforge/flows"
+      },
+      {
+        "id": "storyforge-flow-3",
+        "name": "移除书架",
+        "chapter": "courses/storyforge/flows"
+      }
+    ],
+    "exerciseRecords": [
+      {
+        "id": "storyforge-exercise-1",
+        "name": "请求分页边界与发布可见性",
+        "status": "instructions-provided"
+      },
+      {
+        "id": "storyforge-exercise-2",
+        "name": "安全地址白名单测试",
+        "status": "instructions-provided"
+      }
+    ]
+  }
+]
