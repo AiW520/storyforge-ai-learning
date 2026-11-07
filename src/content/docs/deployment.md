@@ -13,7 +13,7 @@ npm run build
 npm run preview
 ```
 
-默认站点子路径是 `/storyforge-ai/`。预览时访问终端显示地址下的该路径，不能直接双击 dist/index.html：搜索资源需要正常的 HTTP 静态服务。
+默认站点子路径是 `/storyforge-ai-learning/`。预览时访问终端显示地址下的该路径，不能直接双击 dist/index.html：搜索资源需要正常的 HTTP 静态服务。
 
 ## 配置目标
 

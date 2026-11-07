@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
 BASE=Path(__file__).resolve().parents[1];DIST=BASE/'dist'
-prefix=os.environ.get('SITE_BASE','/storyforge-ai').rstrip('/')
+prefix=os.environ.get('SITE_BASE','/storyforge-ai-learning').rstrip('/')
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.refs=[];self.ids=set()
  def handle_starttag(self,tag,attrs):
